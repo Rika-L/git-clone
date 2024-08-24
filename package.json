@@ -1,0 +1,14 @@
+{
+  "name": "@rika_/git-clone-esm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "keywords": [
+    "git",
+    "clone",
+    "shell"
+  ],
+  "author": "Rika",
+  "license": "ISC"
+}
