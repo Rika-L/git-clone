@@ -31,7 +31,7 @@ export default function clone(repo, targetPath, opts, onSuccess, onError) {
             if (opts.checkout) {
                 _checkout();
             } else {
-                onSuccess();
+                onSuccess('ok');
             }
         } else {
             onError(new Error("'git clone' failed with status " + status));
